@@ -8,6 +8,13 @@ class HomePage extends StatelessWidget {
         title: Text("Notes"),
         centerTitle: true,
       ),
+      body: Center(
+        child: Card(
+          child: ListTile(
+            title: Text("My first note"),
+          ),
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: () {
